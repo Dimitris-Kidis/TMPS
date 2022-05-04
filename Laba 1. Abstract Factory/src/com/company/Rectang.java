@@ -1,5 +1,7 @@
 package com.company;
 
+// ConcreteProductB
+
 public class Rectang implements Quality {
 
     @Override

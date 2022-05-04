@@ -7,7 +7,9 @@ public class Create {
     public FactoryPattern.Person[] createPeople (int length) {
             this.length = length;
             int toss;
+
             FactoryPattern.Person[] people = new FactoryPattern.Person[length];
+
             for( int i = 0; i < people.length; i++) {
                 toss = (int)(Math.random() * 2);
                 if ( toss == 0 ) {

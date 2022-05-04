@@ -62,11 +62,12 @@ public class FactoryPattern {
                 "Jennifer",
                 "Olga",
                 "Samantha",
-                "Luna",
+                "Dina",
                 "Nadya",
                 "Lucia",
                 "Sveta",
                 "Oxana"};
+
 
         public Woman () {
             this.name = womanNames[(int)(Math.random() * womanNames.length)];

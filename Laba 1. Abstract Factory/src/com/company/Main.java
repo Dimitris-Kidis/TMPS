@@ -1,10 +1,9 @@
 package com.company;
 
+// Client
+
 public class Main {
 
-
-
-    // АБСТРАКТНАЯ ФАБРИКА
     public static void main(String[] args) {
         //Отформатировать прямоугольную картинку в высоком разрешении
         Quality factory1 = new Rectang();

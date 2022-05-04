@@ -1,5 +1,7 @@
 package com.company;
 
+// ConcreteProductA
+
 public class Circle implements Quality {
 
     @Override

@@ -9,7 +9,6 @@ public class Main {
                 "jdbc:mysql://localhost:3306/dbname",
                 "usernname", "password");
         Connection con = reusablepool.getInstance();
-        // Use Connection object as per the requirement(CRUD operation).
         reusablepool.releaseObject(con);
     }
 }

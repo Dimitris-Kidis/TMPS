@@ -2,6 +2,8 @@ package com.company;
 
 import org.w3c.dom.ls.LSOutput;
 
+// ConcreteaFactories
+
 public class Factory {
     public static class RectangHighQuality implements HighQuality {
         public RectangHighQuality() {

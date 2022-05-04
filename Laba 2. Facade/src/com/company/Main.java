@@ -15,5 +15,7 @@ public class Main {
 
         lookingFor.finishStatus();
         person.activity(lookingFor);
+
+
     }
 }
